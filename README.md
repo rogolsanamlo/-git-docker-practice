@@ -86,3 +86,6 @@ docker rm myapp          # حذف کانتینر
 3. داخل کانتینر برو: `docker exec -it myapp bash`
 4. با `docker images` اندازه ایمیج رو ببین.
 5. بعداً یک `docker-compose.yml` اضافه کن.
+
+
+This project is for learning Git and Docker.
