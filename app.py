@@ -21,6 +21,9 @@ def home():
 def health():
     return {"status": "ok"}
 
+@app.route("/visits")
+def show_visits():
+    return {"visits": visits}
 
 if __name__ == "__main__":
     # host=0.0.0.0 یعنی از بیرون کانتینر هم بشه بهش وصل شد
