@@ -14,7 +14,7 @@ visits = 0
 def home():
     global visits
     visits += 1
-    return f"سلام {NAME}! این صفحه {visits} بار دیده شده."
+    return f"سلام {NAME}! به نسخه جدید برنامه خوش آمدی. بازدید: {visits}"
 
 
 @app.route("/health")
